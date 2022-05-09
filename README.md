@@ -4,7 +4,7 @@ A small source for a simple Image to Base64 converter.
 
 ## Installation
 
-[Download](https://github.com/30jannik06/PasswortGenerator/archive/refs/heads/master.zip) the Repo.
+[Download](https://github.com/30jannik06/ImageToBase64/archive/refs/heads/master.zip) the Repo.
 
 
 ## Usage
@@ -20,4 +20,4 @@ A small source for a simple Image to Base64 converter.
 ## Images
 Small Preview
 
-![Preview](https://cdn.upload.systems/uploads/ybGsfEVI.png)
+![Preview](https://cdn.upload.systems/uploads/rgLwqpcE.png)
