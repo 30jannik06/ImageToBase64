@@ -55,7 +55,7 @@ namespace ImageToBase64
                 }
                 using (Image image = imageOriginal.Image.Clone() as Image)
                 {
-                    txtBase64.Text = "data:image/jpeg;base64," + ConvertImageToBase64(image);
+                    //txtBase64.Text = "data:image/jpeg;base64," + ConvertImageToBase64(image);
                     txtBase64.Text = ConvertImageToBase64(image);
                 }
             }
@@ -81,6 +81,11 @@ namespace ImageToBase64
             }
 
         }
-      
+
+        private void copyBase64Button_Click(object sender, EventArgs e)
+        {
+            string base64String = "data:image/jpeg;base64," + txtBase64.Text;
+            Clipboard.SetText(base64String);
+        }
     }
 }
